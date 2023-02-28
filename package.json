@@ -1,0 +1,47 @@
+{
+  "name": "reddit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RBB2/reddit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RBB2/reddit/issues"
+  },
+  "homepage": "https://github.com/RBB2/reddit#readme",
+  "dependencies": {
+    "@mikro-orm/cli": "^5.6.12",
+    "@mikro-orm/core": "^5.6.12",
+    "@mikro-orm/migrations": "^5.6.12",
+    "@mikro-orm/postgresql": "^5.6.12",
+    "apollo-server-express": "^3.11.1",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "pg": "^8.9.0",
+    "type-graphql": "^1.1.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "mikro-orm": {
+    "useTsNode": true,
+    "configPaths": [
+      "./src/mikro-orm.config.ts",
+      "./dist/mikro-orm.config.js"
+    ]
+  }
+}
