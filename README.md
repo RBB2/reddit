@@ -1,6 +1,6 @@
 Building a full-stack Reddit clone
 
-Built using TypeScript, Graphql, PostgreSQL, MikroORM
+Built using TypeScript, Node.js, GraphQL, TypeGraphQL, PostgreSQL, MikroORM
 
 
 In the project directory, you can run:
