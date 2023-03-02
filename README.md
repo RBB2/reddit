@@ -1,5 +1,6 @@
 Building a full-stack Reddit clone
 
+Built using TypeScript, Graphql, PostgreSQ, MikroORM
 
 
 In the project directory, you can run:
